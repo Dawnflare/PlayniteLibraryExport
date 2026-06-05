@@ -1,0 +1,34 @@
+# Playnite installation directory (contains executables, logs, and database)
+Playnite/
+
+# Target build directories
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# Visual Studio / MonoDevelop / Rider cache and settings
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+MonoAndroid/
+MonoTouch/
+Xamarin.iOS/
+Xamarin.Android/
+
+# NuGet Packages
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Output JSON library export (if saved locally in workspace)
+playnite-library.json
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
